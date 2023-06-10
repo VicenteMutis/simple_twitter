@@ -1,4 +1,6 @@
 <div class="container">
     <h1>Timeline</h1>
     <%= render partial: 'tweet', collection: @tweets %>
+    <%= link_to "Nuevo tweet", new_tweet_path, class: "btn btn-primary" %>
+
 </div>
