@@ -4,6 +4,11 @@
         <div class="form-row">
             <%= f.text_field :body, placeholder: 'Comparte tu estado', class: 'form-control' %>
         </div>
+
+        <div class="form-row">
+            <%= f.text_field :hashtags, placeholder: 'escoge tus hashtags', class: 'form-control' %>
+        </div>
+
         <%= f.submit 'Guardar', class: 'btn btn-primary' %>
     <% end %>
 </div>
